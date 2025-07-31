@@ -18,7 +18,8 @@ public class Test1 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		ScreenRecorderUtil.startRecord("main");
-		System.out.println("------------------Fitpeo Assignment=------------------------------");
+		System.out.println("-----------------==============-Fitpeo Assignment=--================------------------------------");
+	    
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
