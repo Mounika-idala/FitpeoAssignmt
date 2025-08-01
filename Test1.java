@@ -22,7 +22,7 @@ public class Test1 {
 	    
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //Navigating to Home Page
         driver.get("https://www.fitpeo.com/");
         JavascriptExecutor js = (JavascriptExecutor) driver;
